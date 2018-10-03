@@ -8,7 +8,7 @@ using ViaExam.Auth.Domain.Entities;
 
 namespace ViaExam.Auth.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/autenticar")]
     public class AuthenticationController : Controller
     {
 

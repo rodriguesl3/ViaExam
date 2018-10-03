@@ -20,7 +20,7 @@
             $('#button').click(function () {
 
                 $.ajax({
-                    'url': 'http://localhost:52758/api/Authentication?email=' + $('#email').val() + "&password=" + $('#senha').val(),
+                    'url': 'http://localhost:52758/api/autenticar?email=' + $('#email').val() + "&password=" + $('#senha').val(),
                     'type': 'GET',
                     success: function (response) {
                         if (response)
