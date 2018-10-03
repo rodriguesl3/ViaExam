@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  viaexam.auth.api:
+    image: viaexam.auth.api
+    build:
+      context: .
+      dockerfile: ViaExam.Auth.API/Dockerfile

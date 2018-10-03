@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ViaExam.Auth.Domain\ViaExam.Auth.Domain.csproj" />
+    <ProjectReference Include="..\ViaExam.Auth.EF\ViaExam.Auth.EF.csproj" />
+  </ItemGroup>
+
+</Project>
